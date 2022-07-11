@@ -1,14 +1,11 @@
 # 13 Object-Relational Mapping (ORM): E-Commerce Back End
-
-## Your Task
-
-Internet retail, also known as **e-commerce**, is the largest sector of the electronics industry, generating an estimated $29 trillion in 2019. E-commerce platforms like Shopify and WooCommerce provide a suite of services to businesses of all sizes. Due to their prevalence, understanding the fundamental architecture of these platforms will benefit you as a full-stack web developer.
-
-Your task is to build the back end for an e-commerce site by modifying starter code. You’ll configure a working Express.js API to use Sequelize to interact with a MySQL database.
-
-Because this application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality and all of the acceptance criteria being met. You’ll need to submit a link to the video and add it to the readme of your project.
-
-## User Story
+# Employee-Tracker
+  ![badge](https://img.shields.io/badge/license-ISC-brightgreen)<br />
+  
+  ## Description 
+  This challenge is to build the back end for an e-commerce site by modifying starter code. You’ll configure a working Express.js API to use Sequelize to interact with a MySQL database.
+  
+  ## User Story
 
 ```md
 AS A manager at an internet retail company
@@ -32,4 +29,33 @@ WHEN I test API POST, PUT, and DELETE routes in Insomnia
 THEN I am able to successfully create, update, and delete data in my database
 ```
 
+  ## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Tests](#tests)
+  * [Questions](#questions)
+  
+  ## Installation 
+  Download or use `git clone` from the <a href="https://github.com/Timmmmma/E-Commerce-Back-End.git">Link</a>, then open in terminal and run `npm install`.
+  ## Usage 
+  First of all, please connect to the MySQL and create database.
+  
+  Run `mysql -u USERNAME -p` and input your password,
+  
+  Run `SOURCE db/schema.sql` and `quit`,
+  
+  Run `npm run seed` to seed the database,
+  
+  Run `npm start` 
+  
+  <a href="https://drive.google.com/file/d/1wxHlcBiLTbKF_wL2CKC8s4P5ff0E9kGy/view?usp=sharing">Screencastify</a>
+  
+  If there is any error, please check the .json file and fix it by run `npm install`, `npm install mysql2 `, `npm install sequelize`, `npm install dotenv`
+  ## License 
+  ISC
+  ## Tests
+  This app is not required to test
+  ## Questions
+  If you have any questions about this projects, please contact my <a href="https://zhentian222@gmail.com">Email</a> or <a href="https://github.com/zhentian">Github</a>.
 
